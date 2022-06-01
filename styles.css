@@ -1,0 +1,82 @@
+*{padding : 0;
+    margin:0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../html_go_my_code/kokuchibo.jpg);
+    background-size:100%;
+    background-position:right;
+    background-position: top;
+    background-position-y:0.3cm;
+
+}
+.nav{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    padding-top:40px;
+    font-size: 20px;
+    color: aliceblue;
+}
+#xx{padding-right: 40px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    margin-right: 100px;
+    padding-right: 2px;
+    transition: transform.4s;
+
+}
+#xx:hover{
+    transform: scale(1,2);
+}
+span{
+    color:red ;
+}
+#Damino{
+    font-size: 55px;
+}
+nav ul li{
+    display: inline-block;
+    padding:10px 25px;
+    color:white;
+}
+nav ul li a{
+    display: inline-block;
+    padding:10px 25px;
+    color:white;
+}
+
+nav ul li a:hover{
+    color: red;
+    transition: 5ms;
+}
+nav ul{
+    color:white;
+    text-decoration: none;
+}
+.hr{
+    color:green;
+}
+
+amine{
+    color:white;
+    padding: 20px;
+}
+#hr{
+    padding-top: 1cm;
+    padding-right: 40px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border: 0.2px solid transparent;
+    border-radius: 0.3px;
+
+}
+
